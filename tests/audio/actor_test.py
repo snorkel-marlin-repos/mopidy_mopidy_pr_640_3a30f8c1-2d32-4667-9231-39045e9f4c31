@@ -23,7 +23,6 @@ class AudioTest(unittest.TestCase):
             'audio': {
                 'mixer': 'fakemixer track_max_volume=65536',
                 'mixer_track': None,
-                'mixer_volume': None,
                 'output': 'fakesink',
                 'visualizer': None,
             }
@@ -74,7 +73,6 @@ class AudioTest(unittest.TestCase):
             'audio': {
                 'mixer': 'fakemixer track_max_volume=40',
                 'mixer_track': None,
-                'mixer_volume': None,
                 'output': 'fakesink',
                 'visualizer': None,
             }
@@ -90,7 +88,6 @@ class AudioTest(unittest.TestCase):
             'audio': {
                 'mixer': 'fakemixer track_max_volume=0',
                 'mixer_track': None,
-                'mixer_volume': None,
                 'output': 'fakesink',
                 'visualizer': None,
             }
